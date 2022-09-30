@@ -3702,23 +3702,23 @@ input, select, textarea {
 		font-weight: bold;
 		font-size: 12px;
 		text-transform: uppercase;
-		text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+		text-shadow: black;
 		width: 50%;
 		text-align: center;
 	  }
 	  
 	  input.check-toggle-round-flat:checked ~ .off {
-		color: #F36F25;
+		color: black;
 	  }
 	  
 	  input.check-toggle-round-flat:checked ~ .on {
-		color: #fff;
+		color: white;
 	  }
 	  
 	  .switch > span.on {
 		left: 0;
 		padding-left: 2px;
-		color: #F36F25;
+		color: black;
 	  }
 	  
 	  .switch > span.off {
@@ -3747,7 +3747,7 @@ input, select, textarea {
 		padding: 2px;
 		width: 97px;
 		height: 35px;
-		background-color: #F36F25;
+		background-color: #815ac0;
 		-webkit-border-radius: 60px;
 		-moz-border-radius: 60px;
 		-ms-border-radius: 60px;
@@ -3758,6 +3758,7 @@ input, select, textarea {
 		display: block;
 		position: absolute;
 		content: "";
+		
 	  }
 	  
 	  input.check-toggle-round-flat + label:before {
@@ -3765,13 +3766,15 @@ input, select, textarea {
 		left: 2px;
 		bottom: 2px;
 		right: 2px;
-		background-color: #F36F25;
-		-webkit-
+		background-color: #815ac0;
+		/* -webkit- */
 		
 		-moz-border-radius: 60px;
 		-ms-border-radius: 60px;
 		-o-border-radius: 60px;
 		border-radius: 60px;
+		visibility: hidden;
+
 	  }
 	  input.check-toggle-round-flat + label:after {
 		top: 4px;
@@ -3789,12 +3792,7 @@ input, select, textarea {
 		-o-transition: margin 0.2s;
 		transition: margin 0.2s;
 	  }
-	  
-	  input.check-toggle-round-flat:checked + label {
-	  }
-	  
+
 	  input.check-toggle-round-flat:checked + label:after {
 		margin-left: 44px;
 	  }
-
-	
